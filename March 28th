@@ -11,6 +11,8 @@ do You Know EJBS
 What is the default scope in Spring?
 Can You autowire by Interface Type?
 If Child hasPrototype scope and Parent has Singleton then what will be scope of Child Class?
+  If parent bean has scope singleton then child bean should always be singleton even if we write the scope of child bean to prototype in context.xml file. 
+Child inherits and overridden the properties of parent in spring. 
 What is Difference between Spring Singleton vs Java Singleton
 How will You know that for a certain query we are getting duplicates? (Dicy Qn)
 What Parsers have You used?
